@@ -113,7 +113,7 @@ function App() {
            <input name="direction" onChange={handleChange4}/>
          </label>
          <label>
-           <p>Telefomo</p>
+           <p>Telefono</p>
            <input name="tel" onChange={handleChange5}/>
          </label>
        </fieldset>
