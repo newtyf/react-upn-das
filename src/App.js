@@ -101,7 +101,7 @@ function App() {
            <input name="name" onChange={handleChange}/>
          </label>
          <label>
-           <p>Apellidos</p>
+           <p>Apellido</p>
            <input name="apellidos" onChange={handleChange2}/>
          </label>
          <label>
