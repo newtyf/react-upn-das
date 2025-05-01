@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+
+
+/* Estilo para los formularios */
+.estilo {
+  padding: 20px 40px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 30px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.estilo fieldset {
+  margin: 0;
+  padding: 20px;
+  border: 2px solid #61dafb;
+  border-radius: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
+.estilo fieldset legend {
   color: #61dafb;
+  font-size: 1.3em;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.estilo input, .estilo select, .estilo textarea {
+  border: 1px solid #61dafb;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 1em;
+  width: 100%;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.estilo input:focus, .estilo select:focus, .estilo textarea:focus {
+  border-color: #21a1f1;
+  outline: none;
+}
+
+button {
+  background-color: #61dafb; 
+  color: #fff; 
+  font-size: 1.2em; 
+  font-weight: bold;
+  padding: 12px 30px; 
+  border: none; 
+  border-radius: 25px; 
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+
+  margin-top: 20px;
 }
